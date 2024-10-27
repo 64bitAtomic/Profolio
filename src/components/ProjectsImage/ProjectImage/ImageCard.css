@@ -1,0 +1,81 @@
+.image-card {
+    background: #130f2a;
+    border-radius: 0.65rem ;
+    border: 1.5px solid #6751b9;
+    margin: 0 1rem;
+    flex-direction: column;
+    width: 22rem;
+
+  }
+  
+  .image-placeholder {
+    /* background-image: url('./assets/images/pro.webp'); */
+    background-size: cover;
+    border-radius: 0.6rem;
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #555;
+  }
+  .image-placeholder:hover {
+    transform: scale(1.1);  ;
+  }
+  .image-icon {
+    
+    width: 50px;
+    height: 50px;
+    opacity: 0.5; 
+  }
+  
+  .button-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+  }
+  
+  .card-button {
+    border: 1.5px solid #6751b9;
+    background: rgba(103,81,185,0.5);
+    border: 1px solid #555;
+    border-radius: 0.6rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 1.2rem;
+  }
+
+
+  .project-name{
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 10px 0;
+    font-size: 0.5rem;
+  }
+  .project-name span{
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+
+  .card-button:hover {
+    background-color: #6751b9;
+    font-size: 0.9rem;
+  }
+  
+  .icon-github::before,
+  .icon-link::before {
+    background: linear-gradient(180deg, #aa94fe 0%,#7c5fe6 100% ) ;
+  }
+  
