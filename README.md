@@ -47,11 +47,9 @@ A portfolio is a powerful tool to showcase your skills, projects, and profession
    npm start
    ```
 
-## Usage
+## Deployed At URL
 
-1. Open the website.
-2. Enter a search term in the search bar.
-3. Choose between Websites, News, Images, or Videos to see relevant results.
+Innospark WebSite: [Innospark](https://innospark.netlify.app/)
 
 ## Authors
 
