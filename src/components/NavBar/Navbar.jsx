@@ -25,7 +25,12 @@ export const Navbar = () => {
             </li>
             <li>
               <a href="#work" className="menu-item">
-                Work Experince
+                Project Experience
+              </a>
+            </li>
+            <li>
+              <a href="#certificates" className="menu-item">
+                Certifications
               </a>
             </li>
             <li>

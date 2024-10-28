@@ -6,6 +6,7 @@ import Projects from "./components/ProjectsImage/Projects";
 import { Navbar } from "./components/NavBar/Navbar";
 import Skills from "./components/Skills/Skills";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
+import Certification from "./components/Certification/Certification";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Skills />
         <WorkExperience />
+        <Certification />
         <Projects />
         <ContactMe />
       </div>

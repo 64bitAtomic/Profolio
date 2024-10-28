@@ -1,15 +1,15 @@
 import React, { useRef } from "react";
-import "./WorkExperience.css";
-import { WORK_EXPERIENCE } from "../../utils/WorkExp";
-import { ExperienceCard } from "./ExperienceCard/ExperienceCard";
+import "./Certification.css";
 import Slider from "react-slick";
-const WorkExperience = () => {
+import CertificationCard from "./CertificationCard/CertificationCard";
+import { CERTIFICATE } from "../../utils/certificate";
+const Certification = () => {
   const slideRef = useRef();
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
     responsive: [
@@ -30,9 +30,9 @@ const WorkExperience = () => {
     slideRef.current.slickPrev();
   };
   return (
-    <section id="work" className="experience-container">
-      <h5>Project Experience</h5>
-      <div className="experience-content">
+    <section id="certificates" className="certificate-container">
+      <h5>Certifications</h5>
+      <div className="certificate-content">
         <div className="arrow-right" onClick={slideRight}>
           <span className="material-symbols-outlined">chevron_right</span>
         </div>
@@ -40,8 +40,8 @@ const WorkExperience = () => {
           <span className="material-symbols-outlined">chevron_left</span>
         </div>
         <Slider ref={slideRef} {...settings}>
-          {WORK_EXPERIENCE.map((item) => (
-            <ExperienceCard key={item.title} details={item} />
+          {CERTIFICATE.map((item) => (
+            <CertificationCard key={item.name} value={item} />
           ))}
         </Slider>
       </div>
@@ -49,4 +49,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default Certification;

@@ -4,10 +4,10 @@ export const Hero = () => {
   return (
     <section id="hero" className="hero-container">
       <div className="hero-content">
-        <h2>Building Digital Experience That Inspire</h2>
+        <h2>Turning Ideas into Interactive Realities</h2>
         <p>
-          Passionate Frontend Developer | Transforming Into Semless and Visually
-          Stunning web Solutions
+          Passionate Frontend / Backend Developer | Transforming Into Semless
+          and Visually Stunning web Solutions
         </p>
       </div>
 
