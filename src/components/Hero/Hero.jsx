@@ -18,7 +18,7 @@ export const Hero = () => {
           </div>
           <img
             style={{ borderRadius: "2rem" }}
-            src="./assets/images/me.jpeg"
+            src="./assets/images/hero1.jpg"
             alt=""
           />
         </div>
