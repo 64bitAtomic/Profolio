@@ -23,4 +23,8 @@ export const CERTIFICATE = [
     certificate: "./Certificates/git.jpg",
     name: "Git & GitHub",
   },
+  {
+    certificate: "./Certificates/js.png",
+    name: "JavaScript",
+  },
 ];
