@@ -27,4 +27,8 @@ export const CERTIFICATE = [
     certificate: "./Certificates/js.png",
     name: "JavaScript",
   },
+  {
+    certificate: "./Certificates/Ethical Hacking.jpg",
+    name: "Ethical Hacking",
+  },
 ];
