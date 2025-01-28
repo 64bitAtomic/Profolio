@@ -29,4 +29,10 @@ export const PROJECtS = [
     git: "https://github.com/64bitAtomic/Moviesmatehttps://github.com/64bitAtomic/Text_Utility",
     web: "https://text-mani.netlify.app/",
   },
+  {
+    name: "Airbnb",
+    img: "./projectsimg/index1.png",
+    git: "https://github.com/64bitAtomic/Airbnb-MongoDB",
+    web: "https://innospark.netlify.app/",
+  },
 ];

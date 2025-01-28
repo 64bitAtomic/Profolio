@@ -31,4 +31,20 @@ export const CERTIFICATE = [
     certificate: "./Certificates/Ethical Hacking.jpg",
     name: "Ethical Hacking",
   },
+  {
+    certificate: "./Certificates/Express JS.png",
+    name: "Express JS",
+  },
+  {
+    certificate: "./Certificates/Cyber Security.png",
+    name: "Cyber Security",
+  },
+  {
+    certificate: "./Certificates/Node JS.png",
+    name: "Node JS",
+  },
+  {
+    certificate: "./Certificates/Software Engineering.png",
+    name: "Software Engineering",
+  },
 ];
