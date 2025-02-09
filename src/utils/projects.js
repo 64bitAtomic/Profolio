@@ -35,4 +35,10 @@ export const PROJECtS = [
     git: "https://github.com/64bitAtomic/Airbnb-MongoDB",
     web: "https://innospark.netlify.app/",
   },
+  {
+    name: "AniPortal",
+    img: "./projectsimg/aw.png",
+    git: "https://github.com/64bitAtomic/Anime-Website",
+    web: "https://aniportal.netlify.app/",
+  },
 ];
