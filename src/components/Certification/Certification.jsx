@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "./Certification.css";
 import Slider from "react-slick";
 import CertificationCard from "./CertificationCard/CertificationCard";
@@ -34,10 +35,28 @@ const Certification = () => {
       <h5>Certifications</h5>
       <div className="certificate-content">
         <div className="arrow-right" onClick={slideRight}>
-          <span className="material-symbols-outlined">chevron_right</span>
+          <span className="material-symbols-outlined">
+            <FaArrowRight
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                fontSize: "16px",
+                width: "100px",
+              }}
+            />
+          </span>
         </div>
         <div className="arrow-left" onClick={slideLeft}>
-          <span className="material-symbols-outlined">chevron_left</span>
+          <span className="material-symbols-outlined">
+            <FaArrowLeft
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                fontSize: "16px",
+                width: "100px",
+              }}
+            />
+          </span>
         </div>
         <Slider ref={slideRef} {...settings}>
           {CERTIFICATE.map((item) => (

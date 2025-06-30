@@ -1,6 +1,23 @@
-.footer{
-    font-style: 0.8rem;
-    text-align: center;
-    background: linear-gradient(90deg,#3D3072 0%,#423477 100%);
-    padding: 1rem;
+.footer {
+  /* background-color: #111; */
+  background: linear-gradient(90deg, #3d3072 0%, #423477 100%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #03020a; /* WhatsApp green or your preferred hover color */
 }

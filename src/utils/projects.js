@@ -41,4 +41,10 @@ export const PROJECtS = [
     git: "https://github.com/64bitAtomic/Anime-Website",
     web: "https://aniportal.netlify.app/",
   },
+  {
+    name: "Trend-Wise",
+    img: "./projectsimg/trend.png",
+    git: "https://github.com/64bitAtomic/TrendWise",
+    web: "https://trend-wise-seven.vercel.app/",
+  },
 ];
