@@ -3,7 +3,7 @@ import "./Resume.css";
 const ResumeDownloadButton = () => {
   return (
     <a
-      href="/public/resume/mohdzaidkhan.pdf"
+      href="https://innospark.netlify.app/resume/mohdzaidkhan.pdf"
       download="MohdZaid_Resume.pdf"
       className="download-button"
     >
