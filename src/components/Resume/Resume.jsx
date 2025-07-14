@@ -3,7 +3,7 @@ import "./Resume.css";
 const ResumeDownloadButton = () => {
   return (
     <a
-      href="../../../public/assets/mohdzaidkhan.pdf"
+      href="/public/resume/mohdzaidkhan.pdf"
       download="MohdZaid_Resume.pdf"
       className="download-button"
     >
