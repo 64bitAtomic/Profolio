@@ -1,23 +1,41 @@
 .footer {
-  /* background-color: #111; */
   background: linear-gradient(90deg, #3d3072 0%, #423477 100%);
   color: #fff;
-  padding: 20px;
+  padding: 1.5rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875rem; /* 14px */
 }
 
 .social-icons {
-  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Replaces margin for consistent spacing */
+  margin: 0.625rem 0; /* 10px */
 }
 
-.social-icons a {
+.social-icon {
   color: #fff;
-  margin: 0 10px;
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   transition: color 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: #03020a; /* WhatsApp green or your preferred hover color */
+.social-icon:hover,
+.social-icon:focus {
+  color: #25D366; /* WhatsApp green for better contrast */
+  outline: none;
+}
+
+.resume-button {
+  margin-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding: 1rem;
+    font-size: 0.75rem; /* 12px for smaller screens */
+  }
+
+  .social-icon {
+    font-size: 1.25rem; /* 20px for smaller screens */
+  }
 }

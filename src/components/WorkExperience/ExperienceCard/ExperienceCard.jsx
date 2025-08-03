@@ -1,4 +1,3 @@
-import React from "react";
 import "./ExperienceCard.css";
 export const ExperienceCard = ({ details }) => {
   return (

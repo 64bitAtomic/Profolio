@@ -3,54 +3,56 @@ import { MdEmail } from "react-icons/md";
 import "./Footer.css";
 import ResumeDownloadButton from "../Resume/Resume";
 
+const SocialIcon = ({ href, ariaLabel, icon }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={ariaLabel}
+    tabIndex={0}
+    className="social-icon"
+  >
+    {icon}
+  </a>
+);
+
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <div className="footer">
-      <p>© 2024 Mohammad Zaid Khan. All rights reserved.</p>
+    <footer className="footer">
+      <p>© {currentYear} Mohammad Zaid Khan. All rights reserved.</p>
       <div className="social-icons">
-        <a
+        <SocialIcon
           href="https://github.com/64bitAtomic"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-        >
-          <FaGithub />
-        </a>
-        <a
+          ariaLabel="GitHub"
+          icon={<FaGithub />}
+        />
+        <SocialIcon
           href="https://www.instagram.com/mzaidkhan2004"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-        >
-          <FaInstagram />
-        </a>
-        <a
+          ariaLabel="Instagram"
+          icon={<FaInstagram />}
+        />
+        <SocialIcon
           href="https://www.linkedin.com/in/mohammad-zaid-khan-020199260/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-        >
-          <FaLinkedin />
-        </a>
-        <a
+          ariaLabel="LinkedIn"
+          icon={<FaLinkedin />}
+        />
+        <SocialIcon
           href="https://wa.me/919770869177"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="WhatsApp"
-        >
-          <FaWhatsapp />
-        </a>
-        <a
+          ariaLabel="WhatsApp"
+          icon={<FaWhatsapp />}
+        />
+        <SocialIcon
           href="mailto:zk286187@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Email"
-        >
-          <MdEmail />
-        </a>
+          ariaLabel="Email"
+          icon={<MdEmail />}
+        />
       </div>
-      <ResumeDownloadButton />
-    </div>
+      <div className="resume-button">
+        <ResumeDownloadButton />
+      </div>
+    </footer>
   );
 };
 
